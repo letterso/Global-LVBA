@@ -1096,6 +1096,7 @@ void LvbaSystem::BuildTracksAndFuse3D() {
     }
     tracks_before_ = tracks_;
 
+    all_depths_.clear();
     // showTracksComparePCL();
     // saveTrackFeaturesOnImages();
 }
